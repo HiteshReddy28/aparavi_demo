@@ -1,0 +1,57 @@
+{
+  "pipeline": {
+    "name": "dtc_demo_ingestion",
+    "components": [
+      {
+        "type": "source",
+        "config": {
+          "source_type": "local_filesystem",
+          "path": "sample_docs"
+        }
+      },
+      {
+        "type": "index_scan",
+        "config": {
+          "perform_ocr": true,
+          "include_metadata": true
+        }
+      },
+      {
+        "type": "classification",
+        "config": {
+          "rules": [
+            {
+              "name": "PII_Detection",
+              "description": "Detect personally identifiable information",
+              "actions": ["tag"]
+            }
+          ]
+        }
+      },
+      {
+        "type": "text_chunk",
+        "config": {
+          "chunk_size": 500,
+          "chunk_overlap": 50
+        }
+      },
+      {
+        "type": "embedding",
+        "config": {
+          "model": "openai-embedding-ada-2"
+        }
+      },
+      {
+        "type": "vector_store",
+        "config": {
+          "store_type": "qdrant",
+          "collection": "dtc_demo_docs",
+          "connection": {
+            "host": "${QDRANT_HOST}",
+            "api_key": "${QDRANT_API_KEY}"
+          }
+        }
+      }
+    ]
+  }
+}

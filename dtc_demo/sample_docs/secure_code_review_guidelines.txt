@@ -1,0 +1,4 @@
+Secure Code Review Guidelines
+
+All developers must perform a secure code review before merging their code into the main branch. Reviews should check for common vulnerabilities such as injection flaws, broken authentication, sensitive data exposure, and insecure deserialization. Use static analysis tools and manual inspection to identify issues. Document findings and remediation steps in the pull request. Code reviews are mandatory and must be completed by at least one other team member.
+

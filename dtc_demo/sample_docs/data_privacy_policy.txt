@@ -1,0 +1,18 @@
+Data Privacy Policy
+
+Protecting personal data is a fundamental responsibility and a legal requirement. This data privacy policy describes how our company collects, uses, stores, and safeguards personal information. All employees, contractors, and partners must adhere to these principles to ensure compliance with applicable laws and build trust with our customers and stakeholders.
+
+We collect personal data only for legitimate business purposes and limit collection to what is necessary. Personal data may include names, contact details, identification numbers, and financial information. Whenever possible, we obtain consent from individuals before collecting their data. We provide clear notices that explain the purpose of data collection and how it will be used.
+
+We use personal data only for the purposes for which it was collected, unless we obtain additional consent or have a legal basis to use it for other purposes. We do not sell personal data to third parties. When we share data with service providers or partners, we require them to protect it and use it only as instructed.
+
+We store personal data securely using technical and organizational measures. This includes encryption, access controls, and regular security testing. Access to personal data is restricted to employees who need it to perform their job duties. Employees must not share personal data outside authorized systems or store it on unapproved devices.
+
+We retain personal data only as long as necessary to fulfill the purpose for which it was collected or to comply with legal and regulatory requirements. When data is no longer needed, we securely delete or anonymize it. Employees must follow approved data retention and deletion procedures.
+
+We provide individuals with rights to access, correct, and delete their personal data. Requests for data access or deletion must be handled promptly and in accordance with applicable regulations. We maintain processes for responding to requests and documenting our actions.
+
+In the event of a data breach or suspected breach, employees must notify the data protection officer immediately. The company will investigate, mitigate the impact, and notify affected individuals and authorities as required by law. Employees must cooperate fully in breach investigations and follow any remedial actions.
+
+Training on data privacy principles is mandatory for all employees. Regular training ensures that everyone understands their responsibilities, stays informed about regulatory changes, and knows how to handle personal data properly. By adhering to this data privacy policy, we demonstrate our commitment to safeguarding personal information and maintaining the trust of our customers and partners.
+
